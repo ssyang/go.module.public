@@ -7,3 +7,7 @@ import (
 func Print() {
 	fmt.Println("hello")
 }
+
+func PrintGood() {
+	fmt.Println("good")
+}
