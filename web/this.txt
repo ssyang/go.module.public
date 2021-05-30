@@ -1,0 +1,4 @@
+// from https://byounghoonkim.github.io/posts/2020-06-27-go-project-layout/
+웹 애플리케이션 디렉토리
+
+웹 애플리케이션용 컴포넌트들: 정적 웹 에셋, 서버 사이드 템플릿 그리고 SPA

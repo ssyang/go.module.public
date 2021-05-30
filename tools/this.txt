@@ -1,0 +1,5 @@
+// from https://byounghoonkim.github.io/posts/2020-06-27-go-project-layout/
+
+프로젝트를 위한 지원 도구들. 이 도구들은 /pkg와 /internal 디렉토리로부터 코드를 임포트 할 수 있습니다.
+
+예시는 /tools 디렉토리를 보세요.

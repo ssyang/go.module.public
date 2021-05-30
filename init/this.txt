@@ -1,0 +1,4 @@
+// from https://byounghoonkim.github.io/posts/2020-06-27-go-project-layout/
+범용 애플리케이션 디렉토리
+
+System init (systemd, upstart, sysv) 와 프로세스 관리/감독 (runit, supervisord) 설정들.

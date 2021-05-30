@@ -1,0 +1,5 @@
+// from https://byounghoonkim.github.io/posts/2020-06-27-go-project-layout/
+
+애플리케이션과 공개 라이브러리를 위한 예시들.
+
+예시는 /examples 디렉토리를 보세요.

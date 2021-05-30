@@ -1,0 +1,5 @@
+// from https://byounghoonkim.github.io/posts/2020-06-27-go-project-layout/
+
+Github 페이지를 이용하지 않을 때 프로젝트 웹사이트 데이터는 여기에 위치시킵니다.
+
+예를 보려면 /website 디렉토리를 보세요.

@@ -1,0 +1,6 @@
+// from https://byounghoonkim.github.io/posts/2020-06-27-go-project-layout/
+서버 애플리케이션 디렉토리
+
+OpenAPI/Swagger 스펙, JSON 스키마 파일, 프로토콜 정의 파일.
+
+예시를 보려면 /api 디렉토리를 보세요.

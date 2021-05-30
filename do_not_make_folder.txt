@@ -1,0 +1,13 @@
+// from https://byounghoonkim.github.io/posts/2020-06-27-go-project-layout/
+
+/src
+어떤 Go 프로젝트들은 src 폴더가 있는데, 이것이 흔한 패턴인 Java 세계에서 넘어 온 개발자들에게서 주로 일어 납니다. 
+Go 코드와 Go 프로젝트가 Java 처럼 보이지 않도록 되도록이면 이런 Java 패턴을 채택하지 마세요. :-)
+
+프로젝트 레벨의 /src 디렉토리와 How to Write Go Code에서 설명하는 워크스페이스를 위한 /src 디렉토리를 혼동하지 마세요. 
+$GOPATH 환경 변수는 (현재) 워크스페이스를 가리키고 있습니다(윈도우가 아닌 시스템에서는 기본적으로 $HOME/go를 가리킴). 
+이 워크스페이스는 최상위 레벨에 /pkg, /bin 그리고 /src 디렉토리를 가지고 있습니다.
+ 실제 프로젝트들은 /src 아래 서브 디렉토리로 끝나게 됩니다. 
+그래서 프로젝트에 /src 디렉토리를 가지게 되면 프로젝트 경로는 이렇게 보일것입니다
+:/some/path/to/workspace/src/your_project/src/your_code.go. Go 1.11 버전 이상에서는 GOPATH 외부에 프로젝트를 위치시킬 수 있습니만, 
+여전히 이 레이아웃 패턴을 적용시키는 좋은 생각이라는 의미는 아닙니다.

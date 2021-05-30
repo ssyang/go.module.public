@@ -1,0 +1,6 @@
+// from https://byounghoonkim.github.io/posts/2020-06-27-go-project-layout/
+범용 애플리케이션 디렉토리
+
+다양한 빌드, 설치, 분석 등의 오퍼레이션을 수행하기 위한 스크립트들.
+여기 스크립트를 작성해서 루트 레벨 Makefile을 작고 심플하게 유지합니다.(예시, https://github.com/hashicorp/terraform/blob/master/Makefile).
+예시를 보려면 /scripts 디렉토리를 보세요.
